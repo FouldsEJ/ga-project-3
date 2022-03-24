@@ -12,5 +12,6 @@ router
 router.route('/places/:id').get(placesController.getPlaceById);
 
 router.route('/register').post(usersController.registerUser);
+router.route('/login').post(usersController.loginUser);
 
 export default router;
